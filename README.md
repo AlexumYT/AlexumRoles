@@ -3,3 +3,5 @@
 # Alexum Roles
 
 This Mod Uses MiraAPI to function
+
+**Remember this mod is still in production and will probably be filled in bugs if you find any and want to help you boy out please let me know about them through my [discord](https://discord.gg/7wU5HMPtCB) or create an issue report here!**
