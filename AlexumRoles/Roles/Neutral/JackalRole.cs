@@ -1,0 +1,46 @@
+﻿using AlexumRoles.GameOver;
+using AlexumRoles.Utilities;
+using MiraAPI.GameEnd;
+using MiraAPI.Roles;
+using MiraAPI.Utilities;
+using UnityEngine;
+
+namespace AlexumRoles.Roles.Neutral;
+
+public class JackalRole : NeutralRole, IAlexumRole
+{
+    public RoleAlignment RoleAlignment => RoleAlignment.NeutralKilling;
+    public string RoleName => "Jackal";
+    public string RoleDescription => "Kill the crew and the imps";
+    public string RoleLongDescription => RoleDescription;
+    public Color RoleColor => Color.cyan;
+    public ModdedRoleTeams Team => ModdedRoleTeams.Custom;
+
+    public CustomRoleConfiguration Configuration => new(this)
+    {
+        CanGetKilled = true,
+        CanUseVent = true,
+    };
+
+    public RoleOptionsGroup RoleOptionsGroup { get; } = new("Neutral", Color.gray);
+
+    public TeamIntroConfiguration? IntroConfiguration { get; } = new(
+        Color.gray,
+        "NEUTRAL",
+        "You are a Netural. You do not have a team.");
+
+    public override bool DidWin(GameOverReason gameOverReason)
+    {
+        return gameOverReason == CustomGameOver.GameOverReason<JackalGameOver>();
+    }
+
+    public bool CanLocalPlayerSeeRole(PlayerControl player)
+    {
+        // Jackal and Sidekick see each other
+        bool localIsJackalOrSidekick = PlayerControl.LocalPlayer.Data.Role is JackalRole or SidekickRole;
+        bool targetIsJackalOrSidekick = player.Data.Role is JackalRole or SidekickRole;
+
+        // Return true if both are Jackal/Sidekick (like Impostor vision) or if the local player is dead
+        return localIsJackalOrSidekick && targetIsJackalOrSidekick || PlayerControl.LocalPlayer.Data.IsDead;
+    }
+}

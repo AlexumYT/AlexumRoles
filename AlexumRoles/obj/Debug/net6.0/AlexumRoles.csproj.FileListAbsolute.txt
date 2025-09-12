@@ -1,0 +1,14 @@
+D:\testmod\AlexumRoles\AlexumRoles\bin\Debug\net6.0\AlexumRoles.deps.json
+D:\testmod\AlexumRoles\AlexumRoles\bin\Debug\net6.0\AlexumRoles.dll
+D:\testmod\AlexumRoles\AlexumRoles\obj\Debug\net6.0\AlexumRoles.csproj.AssemblyReference.cache
+D:\testmod\AlexumRoles\AlexumRoles\obj\Debug\net6.0\AlexumRoles.GeneratedMSBuildEditorConfig.editorconfig
+D:\testmod\AlexumRoles\AlexumRoles\obj\Debug\net6.0\AlexumRoles.AssemblyInfoInputs.cache
+D:\testmod\AlexumRoles\AlexumRoles\obj\Debug\net6.0\AlexumRoles.AssemblyInfo.cs
+D:\testmod\AlexumRoles\AlexumRoles\obj\Debug\net6.0\AlexumRoles.csproj.CoreCompileInputs.cache
+D:\testmod\AlexumRoles\AlexumRoles\obj\Debug\net6.0\AlexumRoles.dll
+D:\testmod\AlexumRoles\AlexumRoles\obj\Debug\net6.0\refint\AlexumRoles.dll
+D:\testmod\AlexumRoles\AlexumRoles\obj\Debug\net6.0\ref\AlexumRoles.dll
+D:\testmod\AlexumRoles\AlexumRoles\bin\Debug\net6.0\Assets\InvisButton.png
+D:\testmod\AlexumRoles\AlexumRoles\bin\Debug\net6.0\Assets\JackalKillButton.png
+D:\testmod\AlexumRoles\AlexumRoles\bin\Debug\net6.0\Assets\KillButton.png
+D:\testmod\AlexumRoles\AlexumRoles\bin\Debug\net6.0\Assets\SheriffKillButton.png
