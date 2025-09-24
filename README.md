@@ -8,3 +8,5 @@ This Mod Uses MiraAPI to function
 
 # Credits:
 **Joker Role: Credits to [Blitz](https://www.youtube.com/@HeloBaloo) For The Role Idea And @Burger Muncher (No credit existing) For Its Ability.**
+**Jackal & Sidekick Role: Credits to the smart people at The Other Roles Mod That Came Up With This Idea**
+**Altruist Role: Credits To The Smart People At Town Of Us Mod That Came Up With This Idea** 
