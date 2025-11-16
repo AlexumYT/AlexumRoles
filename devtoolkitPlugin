@@ -1,0 +1,29 @@
+{
+    "models": [
+        {
+            "name": "DataNova",
+            "id": 81039553364784,
+            "gameweek": 1
+        },
+        {
+            "name": "Tutorial Service",
+            "id": 126525788665114,
+            "gameweek": 2
+        },
+        {
+            "name": "Chat Tag System",
+            "id": 111362992850745,
+            "gameweek": 4
+        },
+        {
+            "name": "NoteFX",
+            "id": 101849084268908,
+            "gameweek": 5
+        },
+        {
+            "name": "Exec",
+            "id": 112416828998689,
+            "gameweek": 3
+        },
+    ]
+}
